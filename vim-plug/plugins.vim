@@ -14,16 +14,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    " Search files "
+    " Search files
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
-    " Find and replace "
+    " Find and replace
     Plug 'brooth/far.vim'
-    " vim-rails "
+    " vim-rails
     Plug 'https://github.com/tpope/vim-rails.git' 
-    " Some other theme "
-    Plug 'ayu-theme/ayu-vim' " or other package manager
-    " Auto Completion "
+    " Some other theme
+    Plug 'ayu-theme/ayu-vim'
+    " Auto Completion
+    Plug 'neovim/nvim-lsp'
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-compe'
     
