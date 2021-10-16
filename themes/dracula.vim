@@ -1,0 +1,3 @@
+colorscheme darcula
+set termguicolors
+
