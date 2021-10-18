@@ -5,4 +5,5 @@ nnoremap <C-p> :Files<CR>
 nnoremap <C-e> :Buffer<CR>
 nnoremap <C-s> :w<CR>
 nnoremap <C-q> :q<CR>
+nnoremap <M-w> <C-w>
 

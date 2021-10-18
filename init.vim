@@ -7,3 +7,4 @@ source $HOME/.config/nvim/themes/ayu.vim
 source $HOME/.config/nvim/plug-config/lsp-config.vim
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
 luafile $HOME/.config/nvim/lua/lsp/ruby-ls.lua
+luafile $HOME/.config/nvim/lua/lsp/deno-ls.lua

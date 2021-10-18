@@ -27,5 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neovim/nvim-lsp'
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-compe'
+    " Startup screen
+    Plug 'mhinz/vim-startify'
     
 call plug#end()
