@@ -12,6 +12,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
+    " File Explorer Git diff
+    Plug 'preservim/nerdtree' |   
+      \ Plug 'Xuyuanp/nerdtree-git-plugin'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Search files
