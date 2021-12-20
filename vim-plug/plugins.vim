@@ -29,5 +29,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hrsh7th/nvim-compe'
     " Startup screen
     Plug 'mhinz/vim-startify'
-    
+    " Git diff in columns
+    Plug 'https://github.com/airblade/vim-gitgutter.git'
+
 call plug#end()
