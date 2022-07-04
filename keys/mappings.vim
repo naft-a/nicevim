@@ -8,7 +8,7 @@ nnoremap <C-q> :q<CR>
 nnoremap <M-w> <C-w>
 
 " Git review hunk of changed code
-nnoremap grh :GitGutterPreviewHunk<CR>
+nnoremap ggh :GitGutterPreviewHunk<CR>
 
 " Git revert changed hunk
-nnoremap guh :GitGutterUndoHunk<CR>
+nnoremap grh :GitGutterUndoHunk<CR>
